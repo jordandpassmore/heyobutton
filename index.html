@@ -42,11 +42,12 @@ $(document).ready(function() {
     $('#dabutton').on('touchend', function(e){
         $(this).removeClass('tapped');
     });
-    $('#dabutton').on('tap', (function(e) {
+    $('#dabutton').on('tap', function(e) {
         e.preventDefault();
         new Audio(audioBase64).play();
         return false;
     });
+});
     
 
 $(window).load(function() {
