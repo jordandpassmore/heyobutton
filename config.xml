@@ -16,5 +16,8 @@
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         Jordan Passmore 
     </author>
-
+    <preference name="orientation"  value="portrait" />
+    <preference name="target-device" value="universal" />  
+    <preference name="fullscreen" value="true" />  
+    <preference name="webviewbounce" value="false" />
 </widget>

@@ -60,15 +60,11 @@ body {
     
 }
 
-#dabutton:hover {
+#dabutton.tapped {
     background-color: maroon;
 }
 
-#dabutton:active {
-    background-color: lightcoral;
-}
-
-#dabutton:active p {
+#dabutton.tapped p {
     color: black;
 }
 
